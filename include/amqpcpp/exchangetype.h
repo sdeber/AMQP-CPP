@@ -25,7 +25,8 @@ enum ExchangeType
     direct,
     topic,
     headers,
-    consistent_hash
+    consistent_hash,
+	modulus_hash
 };
 
 /**
